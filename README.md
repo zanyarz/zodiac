@@ -6,7 +6,7 @@ This repo includes the code for ZoDIAC paper submitted to Springer Nature AIRE (
 
 Performance using Cross Entropy Loss and Adam Optimizer.
 
-| Model  | B1 | B2 | M | C | S
+| Model  | B1 | B2 | M | S | C
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | ZoDIAC(Tanh)  | 77.4  | 36.6 | 28.0 | 21.4 | 115.9 |
 | ZoDIAC(Sigmoid)  | 77.0 | 36.1 | 27.9 | 21.3 | 115.5 |
