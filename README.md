@@ -88,21 +88,6 @@ First modify the shcmd/eval_ensemble.sh based on the IDs of multiple runs for en
 $ sh shcmd/ensemble.sh
 ```
 
-%## Reference
-%
-%If you find this repo useful, please consider citing (no obligation at all):
-%
-%```
-%@article{luo2018discriminability,
-%  title={Discriminability objective for training descriptive captions},
-%  author={Luo, Ruotian and Price, Brian and Cohen, Scott and Shakhnarovich, Gregory},
-%  journal={arXiv preprint arXiv:1803.04376},
-%  year={2018}
-%}
-%```
-%
-%Of course, please cite the original paper of models you are using (You can find references in the model files).
-
 ## Acknowledgements
 
 Thanks to the [self-critical](https://github.com/ruotianluo/self-critical.pytorch/) repo by Ruotian Luo.
