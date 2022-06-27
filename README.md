@@ -24,13 +24,13 @@ $ docker build -t zodiac:self-critical .
 We also need to mount the data folder to the docker container. First move the data folder to any folder you want from the root directory. Then, run the following command.
 
 ```bash
-EXPORT ZODICA_DATA_DIR="/path/to/data"
+$ EXPORT ZODICA_DATA_DIR="/path/to/data"
 ```
 
 Then you can run the following command to run the docker image.
 
 ```bash
-docker run --runtime=nvidia --name zc1 -it \
+$ docker run --runtime=nvidia --name zc1 -it \
         -v $ZODICA_DATA_DIR:/workspace/self-critical/data \
         --shm-size 32G -p 777:777 zodiac:self-critical /bin/bash \
 ```
@@ -38,7 +38,7 @@ docker run --runtime=nvidia --name zc1 -it \
 Lastly, when inside the docker container, we need to define an ID for the code tor run as the following:
 
 ```bash
-EXPORT ID="zc1"
+$ EXPORT ID="zc1"
 ```
 Of course, for other runs, you can use other IDs.
 
