@@ -2,6 +2,13 @@
 
 This repo includes the code for ZoDIAC paper submitted to Springer Nature AIRE (Currently Under Review). Arxiv preprint in progress.
 
+## Performance
+
+| Model  | B1 | B2 | M | C | S
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ZoDIAC(Sigmoid)  | Content Cell  | | | | |
+| ZoDIAC(Tanh)  | Content Cell  | | | | |
+
 ## Requirements
 
 Python 3.6 and above.
