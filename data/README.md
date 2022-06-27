@@ -14,7 +14,7 @@ $ python scripts/prepro_labels.py --input_json data/dataset_coco.json --output_j
 
 `prepro_labels.py` will map all words that occur <= 5 times to a special `UNK` token, and create a vocabulary for all the remaining words. The image information and vocabulary are dumped into `data/cocotalk.json` and discretized caption data are dumped into `data/cocotalk_label.h5`.
 
-### Download Bottom-up features (Skip if you are using resnet features)
+### Download Bottom-up features
 
 Download pre-extracted feature from [link](https://github.com/peteanderson80/bottom-up-attention). You can either download adaptive one or fixed one.
 
