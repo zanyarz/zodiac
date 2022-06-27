@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 eval_ensemble.py --ids "ZTR_6L1_bs20,ZTR_6L2_bs20,ZTR_6L3_bs20,ZTR_6L4_bs20,ZTR_6L5_bs20" --input_att_dir data/cocobu_att --beam_size 3 --dump_images 0 --num_images 5000 --language_eval 1 #--model log_$id/model-best.pth --infos_path log_$id/infos_$id.pkl  --language_eval 1

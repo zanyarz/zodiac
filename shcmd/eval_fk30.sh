@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python eval.py --input_label_h5 f30ktalk_label.h5 --beam_size 5 --dump_images 0 --num_images -1 --model log_$id/model-best.pth --infos_path log_$id/infos_$id.pkl  --language_eval 1
