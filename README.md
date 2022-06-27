@@ -40,6 +40,7 @@ Lastly, when inside the docker container, we need to define an ID for the code t
 ```bash
 $ EXPORT ID="zc1"
 ```
+
 Of course, for other runs, you can use other IDs.
 
 ## Training & Evaluation
