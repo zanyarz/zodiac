@@ -1,7 +1,7 @@
 # ZoDIAC: Zoneout Dropout Injection Attention Calculation
 
 This repo includes the code for ZoDIAC paper submitted to Springer Nature AIRE (Currently Under Review). Preprint version in progress at Research Square. 
-
+Arxiv version is available [here](https://arxiv.org/pdf/2206.14263.pdf).
 ## Requirements
 
 Python 3.6 and above.
