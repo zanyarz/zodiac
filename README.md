@@ -1,6 +1,6 @@
 # ZoDIAC: Zoneout Dropout Injection Attention Calculation
 
-This repo includes the code for ZoDIAC paper submitted to Springer Nature AIRE (Currently Under Review). Preprint version in progress at Research Square. 
+This repo includes the code for ZoDIAC paper submitted to Springer Nature AIRE (Currently Under Review). Preprint available with DOI at [Research Square](https://doi.org/10.21203/rs.3.rs-1798795/v1). 
 Arxiv preprint version is available [here](https://arxiv.org/pdf/2206.14263.pdf).
 ## Requirements
 
