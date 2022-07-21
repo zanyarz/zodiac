@@ -86,7 +86,7 @@ $ sh shcmd/eval.sh --input_json cocotest.json
 First modify the shcmd/eval_ensemble.sh based on the IDs of multiple runs for ensemble evaluation. Then, run the following command:
 
 ```bash
-$ sh shcmd/ensemble.sh
+$ sh shcmd/eval_ensemble.sh
 ```
 
 ## Acknowledgements
